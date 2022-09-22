@@ -352,3 +352,4 @@ G:\Git\1670-Application-Development\Learn1\obj\Debug\netcoreapp3.1\Learn1.pdb
 G:\Git\1670-Application-Development\Learn1\obj\Debug\netcoreapp3.1\Learn1.genruntimeconfig.cache
 G:\Git\1670-Application-Development\Learn1\obj\Debug\netcoreapp3.1\Razor\Views\Demo\Index.cshtml.g.cs
 G:\Git\1670-Application-Development\Learn1\obj\Debug\netcoreapp3.1\Razor\Views\Demo\ARandomGrace.cshtml.g.cs
+G:\Git\1670-Application-Development\Learn1\obj\Debug\netcoreapp3.1\Razor\Views\Image\CC.cshtml.g.cs
