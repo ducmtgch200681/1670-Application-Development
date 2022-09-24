@@ -1,0 +1,23 @@
+﻿@{
+    var name = "Application Development";
+    var code = 1670;
+    var student = "Mike Duke";
+    List<string> technologies = new List<string>()
+    {
+        "ASP.NET Core", "SQL Server", "Razor"
+    };
+    var x = 5;
+    var y = 7;
+    var z = x + y;
+}
+
+<h2>Module Name : @name</h2>
+<h3>Modedule Code : @code</h3>
+<h4>Student : @student</h4>
+<ol>
+@foreach (var tech in technologies)
+{
+    <li class="text-warning"><h5>@tech</h5></li>
+}
+</ol>
+<h6>z = @z</h6>

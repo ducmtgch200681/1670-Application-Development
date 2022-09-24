@@ -1,0 +1,15 @@
+﻿<h4>Age: @ViewData["Age"]</h4>
+<h4>Gender: @ViewData["Gender"]</h4>
+<h4>Phone: @ViewData["Phone"]</h4>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Poem</th>
+    </tr>
+    @foreach (var poem in ViewBag.Poem)
+    {
+        <tr>
+            <td>@poem</td>
+        </tr>
+    }
+</table>

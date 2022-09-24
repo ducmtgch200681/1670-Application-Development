@@ -1,0 +1,100 @@
+﻿@{
+    //custome layout
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    //no layout
+    Layout = null;
+    //default layout
+    Layout = "_Layout.cshtml";
+    //default layout alt: DO NOT WRITE ANYTHING
+}
+
+@*
+    comment with ctrl + k + c
+*@
+
+<!--
+    comment with traditional html
+-->
+
+@{
+    //comment with C# in only 1 line
+    /*
+         comment multiple lines
+    */
+    var fpt = "FPT cooperator";
+}
+
+<h2>Email: maitheduc2002@gmail.com</h2>
+<h3>print value using: @fpt</h3>
+<h3>print a using: </h3> @@fpt
+
+@{
+    //C# in Razor
+    int a = 3;
+    int b = 4;
+    int c = 5;
+    int max = 0;
+    if (a >= b && a>=c)
+    {
+        max = a;
+    }
+    else if ( b >= a && b >= c)
+    {
+        max = b;
+    }
+    else
+    {
+        max = c;
+    }
+
+    var menu = 1;
+    var text = "";
+
+    switch (menu)
+    {
+        case 1:
+            text = "Menu 1";
+            break;
+        case 2:
+            text = "Menu 2";
+            break;
+        case 3:
+            text = "Menu 3";
+            break;
+        default:
+            text = "Invalid Menu";
+            break;
+    }
+}
+
+<h3>Max is @max</h3>
+<h4>@text</h4>
+
+<h5>Print from 1 to 10 using for loop</h5>
+@{
+    for(int i = 1; i <= 10; i++)
+    {
+        <h6>@i</h6>
+    }
+}
+
+<h5>Print from 1 to 10 using while loop</h5>
+@{
+    int j = 1;
+    while(j <= 10)
+    {
+        <h6>@j</h6>
+        <p hidden>@(j++)</p>
+    }
+}
+
+<h5>Print from 1 to 10 using do while loop</h5>
+@{
+    int k = 1;
+    do
+    {
+        <h6>@k</h6>
+        <p hidden>@(k++)</p>
+    }
+    while (k <= 10);
+}
