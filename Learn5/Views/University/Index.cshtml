@@ -1,0 +1,21 @@
+﻿@model Learn5.Models.University
+
+<form asp-controller="University" asp-action="Index">
+    English Name:
+    <input asp-for="EngName" required /><br /><br />
+    Vietname Name:
+    <input asp-for="VieName" required /><br /><br />
+    Address:
+    <input asp-for="Address" required /><br /><br />
+    Introduction:
+    <input asp-for="Intro" required /><br /><br />
+    Image:
+    <input asp-for="Image" required /><br /><br />
+    <input type="submit" value="OK" />
+</form>
+
+<h1>English Name: @Model.EngName</h1>
+<h1>Vietnamese Name: @Model.VieName</h1>
+<h1>Address: @Model.Address</h1>
+<h2>Introduction: @Model.Intro</h2>
+<img src="@Model.Image" width=100% height=100% />

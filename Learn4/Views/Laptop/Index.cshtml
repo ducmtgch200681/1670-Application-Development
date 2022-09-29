@@ -1,0 +1,27 @@
+﻿@model List<Laptop>
+
+<div class="container col-md-8 text-center">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Laptop Name</th>
+                <th>Quantity</th>
+                <th>Image</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    @*<td>@Model(Inde</td>*@
+                    <td>@(i+1)</td>
+                    <td>@Model[i].Name</td>
+                    <td>@Model[i].Quantity</td>
+                    <td><img src = "@Model[i].Image" width=100% height=100% /></td>
+                    <td>@Model[i].Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
