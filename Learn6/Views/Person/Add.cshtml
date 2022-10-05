@@ -1,0 +1,16 @@
+﻿@model Learn6.Models.Person
+
+<form class="card p-3 bg-light" method="post" asp-controller="Person" asp-action="Add">
+    <h2 class="text-success">Add person</h2>
+    <div class="form-group">
+        <label class="text-success">Name: </label>
+        <input required asp-for="Name" /><br /><br />
+        <label class="text-success">Age: </label>
+        <input required asp-for="Age" /><br /><br />
+        <label class="text-success">Telephone: </label>
+        <input required asp-for="Tele" /><br /><br />
+        <label class="text-success">Image: </label>
+        <input required asp-for="Image" /><br /><br />
+        <input type="submit" value="Add" />
+    </div>
+</form>
