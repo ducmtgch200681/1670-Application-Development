@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Git\\1670-Application-Development\\demo\\demo.csproj": {}
+    "E:\\GitHub\\1670-Application-Development\\demo\\demo.csproj": {}
   },
   "projects": {
-    "G:\\Git\\1670-Application-Development\\demo\\demo.csproj": {
+    "E:\\GitHub\\1670-Application-Development\\demo\\demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Git\\1670-Application-Development\\demo\\demo.csproj",
+        "projectUniqueName": "E:\\GitHub\\1670-Application-Development\\demo\\demo.csproj",
         "projectName": "demo",
-        "projectPath": "G:\\Git\\1670-Application-Development\\demo\\demo.csproj",
+        "projectPath": "E:\\GitHub\\1670-Application-Development\\demo\\demo.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "G:\\Git\\1670-Application-Development\\demo\\obj\\",
+        "outputPath": "E:\\GitHub\\1670-Application-Development\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
